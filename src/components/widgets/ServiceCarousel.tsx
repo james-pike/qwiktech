@@ -169,7 +169,7 @@ export default component$((props: Props) => {
               <Card.Image 
                 src={service.image} 
                 alt={service.title}
-                style={{ height: '150px' ,}} // Optional: adjust height as needed
+                style={{ height: '150px' ,}} // Optional: adjuqst height as needed
               />
              {serviceData.map((service) => (
                      <div class="pb-6 h-full">
