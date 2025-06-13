@@ -84,7 +84,7 @@ const serviceData = [
   //   ctaText: "Book Open Like A Bowl"
   // },
   // {
-  //   title: "Development",
+  //   title: "Developmsent",
   //   subtitle: "Robust Web and Software Solutions",
 
   //   description: "We provide scalable development with React, Qwik, and Next.js, building secure APIs, integrating cloud solutions, and delivering custom software.",
