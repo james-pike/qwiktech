@@ -24,7 +24,7 @@ export default component$(() => {
       class={`sticky top-0 z-40 flex-none mx-auto transition-[opacity] ease-in-out ${
         isLandingPage
           ? store.isScrolling
-            ? " border-y md:border-y-2 bg-card border-border"
+            ? " border-y md:border-y-2 bg-background border-border"
             : "texture"
           : "bg-card border-y md:border-b-2" // Always bg-background when not on landing page
       }`}
@@ -39,7 +39,7 @@ export default component$(() => {
       <div class="relative text-default py-2 md:p-1 px-2 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
         <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
           <a class="flex items-center" href={"/"}>
-            <Logo3 />
+            {/* <Logo3 /> */}
             {/* <div  class="inline-flex hidden sm:block justify-between items-center py-1 px-1 pr-4 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
             <span class="text-xs bg-primary rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">Free Website Audit</span> 
             <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>

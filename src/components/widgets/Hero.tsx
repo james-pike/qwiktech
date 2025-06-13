@@ -6,7 +6,7 @@ import { Link } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <section class="relative overflow-hidden">
-      <div class="absolute inset-y-0 right-3/4 z-10  skew-x-[-30deg] bg-primary shadow-xl ring-1 shadow-indigo-600/10 ring-indigo-50 md:-mr-20 lg:-mr-36" aria-hidden="true"></div>
+      <div class="absolute inset-y-0 right-3/4 z-10  skew-x-[-30deg] bg-primary/10 shadow-xl ring-1 shadow-indigo-600/10 ring-indigo-50 md:-mr-20 lg:-mr-36" aria-hidden="true"></div>
 
       <div class="grid texture-fixed grid-cols-1 md:grid-cols-2 ">
 <img  src="/images/vessel.svg" class="px-4 pt-4 mt-2 h-28 mx-auto "/>
@@ -30,7 +30,7 @@ export default component$(() => {
                   size="md"
                   class="w-full bg-secondary text-lg relative overflow-hidden before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:translate-x-[-100%] before:animate-shimmer"
                 >
-                  Book
+                  Book A Class
                 </Button>
               </Link>
               <Link href="/contact" class="w-full sm:w-auto">

@@ -19,7 +19,7 @@ export default component$(() => {
                 ...Object.values(ThemeBorderRadiuses),
               ]}>
       <Header />
-      <main class="bg-[#F5F1EB]">
+      <main class="bg-white">
         <Slot />
       </main>
       <Footer />
