@@ -86,22 +86,7 @@ items={[
 
 
 
-      <Pricing id="pricing"
-      isDark
-        highlight="pricing"
-        title="Flexible Pricing Options"
-        subtitle="Choose a one time payment or monthly plan."
-        items={[]} />
-
-
-      <Reviews
     
-        highlight="Reviews"
-        title="What Our Clients Say"
-        subtitle="These reviews are pulled from Google Reviews and filtered to only display 4-5 star ratings."
-        items={[]} />
-  
-  
            <FAQ
 
         title="Frequently Asked Questions"
@@ -109,7 +94,7 @@ items={[
         highlight="FAQs"
   
       />
-      <Stats />
+   
       <Contact
     
       id="services"
