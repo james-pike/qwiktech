@@ -1,21 +1,14 @@
 import { component$ } from "@builder.io/qwik";
 import { type DocumentHead } from "@builder.io/qwik-city";
-import Stats from "~/components/widgets/Stats";
-import { qwikSerialized } from "~/utils/qwikSerialized";
 import { SITE } from "~/config.mjs";
-import Pricing from "~/components/widgets/Pricing";
 import Hero from "~/components/widgets/Hero";
-import Features from "~/components/widgets/Features";
 import FAQ from "~/components/widgets/FAQ";
-import Steps from "~/components/widgets/Steps";
 import Contact from "~/components/widgets/Contact";
 
-import Reviews from "~/components/widgets/Reviews";
 import ServiceCarousel from "~/components/widgets/ServiceCarousel";
 
 
 
-const IconRocket = qwikSerialized(() => import("../components/icons/IconRocket"));
 
 export default component$(() => {
   return (
@@ -30,7 +23,7 @@ export default component$(() => {
         subtitle="From stunning design to seamless development and strategic branding — we build digital solutions that make an impact."
         items={[]} /> */}
 
-            <Steps      
+            {/* <Steps      
       isDark 
       id="steps"
       highlight="Our Process"
@@ -81,7 +74,7 @@ items={[
       "From metadata to Core Web Vitals, we make sure your site loads fast, ranks well, and reaches the right people.",
     icon: IconRocket, // Performance-related icon
   },
-]}/>
+]}/> */}
 
 
 
