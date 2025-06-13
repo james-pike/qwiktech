@@ -19,7 +19,7 @@ const services = [
   {
     title: 'Web Development',
     description: 'Building responsive and modern web applications',
-       image: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/features/feature-office-2.png'
+       image: '/images/clay.jpg'
   },
   {
     title: 'Mobile Apps',
@@ -50,11 +50,11 @@ const services = [
 
 const serviceData = [
   {
-    title: "Design",
+    title: "Clay Labryinth",
     subtitle: "Creative and Functional Design",
 
     description: "Our innovative design services use Figma, Adobe XD, and Sketch to craft custom UI/UX, interactive prototypes, and branding assets tailored to your vision.",
-    image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-3.png",
+    image: "/images/clay",
     features: [
       "Custom UI/UX Design",
       "Interactive Prototyping",
@@ -66,6 +66,23 @@ const serviceData = [
     },
     ctaText: "Begin Design"
   },
+  //   {
+  //   title: "Open Like A Bowl",
+  //   subtitle: "Creative and Functional Design",
+
+  //   description: "Our innovative design services use Figma, Adobe XD, and Sketch to craft custom UI/UX, interactive prototypes, and branding assets tailored to your vision.",
+  //   image: "/images/summer",
+  //   features: [
+  //     "Custom UI/UX Design",
+  //     "Interactive Prototyping",
+  //     "Branding Asset Creation"
+  //   ],
+  //   projectDetails: {
+  //     startingPrice: "$3,500",
+  //     timeline: "4-6 weeks"
+  //   },
+  //   ctaText: "Book Open Like A Bowl"
+  // },
   // {
   //   title: "Development",
   //   subtitle: "Robust Web and Software Solutions",

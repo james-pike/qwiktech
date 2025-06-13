@@ -24,12 +24,12 @@ export default component$(() => {
   
       <Hero />
 <ServiceCarousel/>
-      <ServicesX
+      {/* <ServicesX
         id="services"
         highlight="Upcoming Events & Classes"
         title="Classes & Workshops"
         subtitle="From stunning design to seamless development and strategic branding — we build digital solutions that make an impact."
-        items={[]} />
+        items={[]} /> */}
 
             <Steps      
       isDark 

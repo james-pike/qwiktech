@@ -30,11 +30,11 @@ export default component$(() => {
                   size="md"
                   class="w-full bg-secondary text-lg relative overflow-hidden before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:translate-x-[-100%] before:animate-shimmer"
                 >
-                  Book A Class
+                  Book
                 </Button>
               </Link>
               <Link href="/contact" class="w-full sm:w-auto">
-                <Button size="md" class="w-full text-lg">Contact Us</Button>
+                <Button size="md" class="w-full text-lg">Contact</Button>
               </Link>
             </div>
           </div>
