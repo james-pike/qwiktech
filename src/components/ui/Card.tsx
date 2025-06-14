@@ -62,7 +62,7 @@ const Footer = component$<PropsOf<'div'>>(({ ...props }) => {
 
 // Experimental API
 const Image = component$<PropsOf<'img'>>(({ ...props }) => {
-  return <img {...props} class={cn('w-full object-cover', props.class)} />;
+  return <img {...props} class={cn('w-full rounded-t object-cover', props.class)} />;
 });
 
 export const Card = {

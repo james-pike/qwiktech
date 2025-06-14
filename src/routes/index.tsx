@@ -6,6 +6,7 @@ import FAQ from "~/components/widgets/FAQ";
 import Contact from "~/components/widgets/Contact";
 
 import ServiceCarousel from "~/components/widgets/ServiceCarousel";
+import Steps from "~/components/widgets/Steps";
 
 
 
@@ -15,6 +16,12 @@ export default component$(() => {
     <>
   
       <Hero />
+      <div class="bg-white h-2"></div>
+         <Steps      
+      isDark 
+      id="steps"
+  title="UPCOMING EVENTS"
+        items={[]} />
 <ServiceCarousel/>
       {/* <ServicesX
         id="services"
@@ -23,14 +30,8 @@ export default component$(() => {
         subtitle="From stunning design to seamless development and strategic branding — we build digital solutions that make an impact."
         items={[]} /> */}
 
-            {/* <Steps      
-      isDark 
-      id="steps"
-      highlight="Our Process"
-  title="How We Bring Your Website to Life"
-  subtitle="From first contact to final launch, our streamlined process ensures every website is strategic, beautifully designed, and built to perform."
-        items={[]} />
-
+         
+ {/*
 <Features
 id="features-grid"
 highlight="Core Services"
@@ -83,7 +84,6 @@ items={[
            <FAQ
 
         title="Frequently Asked Questions"
-        subtitle="Find common inquiries about our services."
         highlight="FAQs"
   
       />

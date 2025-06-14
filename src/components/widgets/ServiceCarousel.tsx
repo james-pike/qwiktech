@@ -64,7 +64,7 @@ const serviceData = [
       startingPrice: "$3,500",
       timeline: "4-6 weeks"
     },
-    ctaText: "Begin Design"
+    ctaText: "Book Class"
   },
   //   {
   //   title: "Open Like A Bowl",
@@ -161,7 +161,7 @@ export default component$((props: Props) => {
       <Carousel.Scroller class="carousel-scroller py-6">
         {services.map((service) => (
           <Carousel.Slide
-            style={{ flexBasis: '400px' }}
+            style={{ flexBasis: '300px' }}
             key={service.title}
             class="carousel-slide w-full"
           >
@@ -175,7 +175,7 @@ export default component$((props: Props) => {
                      <div class="pb-6 h-full">
                        <Card.Header>
                          <Card.Title class="text-2xl md:text-3xl md:pt-4 font-bold text-gray-900 dark:text-white">
-                           {service.title} Services
+                           {service.title} 
                          </Card.Title>
                          <Card.Description class="text-gray-600 dark:text-gray-300">
                            {service.description}
@@ -223,7 +223,7 @@ export default component$((props: Props) => {
                                />
                              </div>
                            </div> */}
-                           <Button class="w-full bg-secondary hover:bg-blue-700 text-white font-semibold py-3 rounded-lg">
+                           <Button class=" bg-secondary hover:bg-blue-700 text-white font-semibold py-3 rounded-lg">
                              {service.ctaText}
                            </Button>
                          </div>

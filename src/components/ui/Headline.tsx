@@ -15,7 +15,7 @@ export const Headline = component$((props: Props) => {
 
   const {
     container: containerClass = "max-w-3xl",
-    title: titleClass = "text-4xl md:text-5xl",
+    title: titleClass = "text-3xl text-white md:text-5xl",
     subtitle: subtitleClass = "text-xl",
   } = classes;
 
