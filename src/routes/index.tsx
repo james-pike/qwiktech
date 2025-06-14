@@ -4,7 +4,6 @@ import { SITE } from "~/config.mjs";
 import Hero from "~/components/widgets/Hero";
 
 
-import ServiceCarousel from "~/components/widgets/ServiceCarousel";
 import Steps from "~/components/widgets/Steps";
 
 
@@ -21,7 +20,9 @@ export default component$(() => {
       id="steps"
   title="UPCOMING EVENTS"
         items={[]} />
-<ServiceCarousel/>
+              <div class="bg-white h-2"></div>
+
+
       {/* <ServicesX
         id="services"
         highlight="Upcoming Events & Classes"
