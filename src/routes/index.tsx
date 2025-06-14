@@ -2,8 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { type DocumentHead } from "@builder.io/qwik-city";
 import { SITE } from "~/config.mjs";
 import Hero from "~/components/widgets/Hero";
-import FAQ from "~/components/widgets/FAQ";
-import Contact from "~/components/widgets/Contact";
+
 
 import ServiceCarousel from "~/components/widgets/ServiceCarousel";
 import Steps from "~/components/widgets/Steps";
@@ -80,7 +79,7 @@ items={[
 
 
 
-    
+{/*     
            <FAQ
 
         title="Frequently Asked Questions"
@@ -94,7 +93,7 @@ items={[
       highlight="Contact Us"
       title="Get In Touch"
       subtitle="Request a quote or book a free consultations today!."
-      items={[]} />
+      items={[]} /> */}
 
       
     </>
