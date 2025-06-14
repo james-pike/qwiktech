@@ -1,10 +1,6 @@
 import { component$, useSignal, useVisibleTask$ } from "@builder.io/qwik";
-import { Headline } from "~/components/ui/Headline"; // Adjust the import path
 import { SectionWrapper } from "./SectionWrapper";
-import { Image } from "@unpic/qwik";
-import { twMerge } from "tailwind-merge";
-import { Card } from "../ui/Card";
-import IconStar from "../icons/IconStar";
+
 import ServiceCarousel from "./ServiceCarousel";
 
 interface Item {
@@ -24,48 +20,11 @@ interface Props {
   classes?: any;
 }
 
-const sideImg =
-  "/images/steps.webp";
-
-const stepsData = {
-  stepsTitle: "Bringing Your Vision to Life in Just a Few Steps",
-  items: [
-    {
-      title: "Step 1: Get in Touch",
-      description:
-        "Reach out with your idea, whether it’s a brand refresh or a full custom website. We’ll schedule a discovery call to understand your goals and vision.",
-      icon: IconStar,
-    },
-    {
-      title: "Step 2: Strategy & Proposal",
-      description:
-        "We dive into research, define your project scope, and craft a clear, customized proposal—no fluff, just a roadmap built around results.",
-      icon: IconStar,
-    },
-    {
-      title: "Step 3: Design & Development",
-      description:
-        "Our team handles everything from branding and UX to responsive development—building you a modern, high-performing website tailored to your audience.",
-      icon: IconStar,
-    },
-    {
-      title: "Step 4: Launch & Support",
-      description:
-        "After testing and final revisions, we launch your site with confidence. Need help post-launch? We’re here for ongoing support and future updates.",
-      icon: IconStar,
-    },
-  ],
-  image: {
-    src: sideImg,
-    alt: "Web design and development process",
-  },
-};
 
 
-const { items, image } = stepsData;
 
 export default component$((props: Props) => {
-  const { id, title = "", subtitle = "", highlight = "", isDark } = props;
+  const { id, isDark } = props;
 
 
 
